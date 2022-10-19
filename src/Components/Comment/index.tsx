@@ -1,6 +1,3 @@
-import { Box } from "@material-ui/core";
-import Skeleton from "@mui/material/Skeleton";
-import React from "react";
 import { CommentType } from "../../util/types";
 import "./index.css";
 

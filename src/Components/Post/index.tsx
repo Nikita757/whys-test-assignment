@@ -1,5 +1,6 @@
-import { Skeleton } from "@mui/material";
 import React, { useContext } from "react";
+import { Skeleton } from "@mui/material";
+
 import { LoadingContext } from "../../Context";
 import { ArticleType, PostType } from "../../util/types";
 import "./index.css";

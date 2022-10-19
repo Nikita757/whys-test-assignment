@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import Post from "../../Post";
 import {
@@ -10,8 +10,8 @@ import {
 import { delay } from "../../../util/util";
 import CommentSection from "../../CommentSection";
 import CommentsButton from "../../CommentsButton";
-import "./index.css";
 import { LoadingContext } from "../../../Context";
+import "./index.css";
 
 export default function PostPage() {
   const [article, setArticle] = useState<ArticleType | undefined>(undefined);

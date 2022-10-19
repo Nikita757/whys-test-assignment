@@ -1,3 +1,13 @@
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .CommentsButton {
   width: 50%;
   box-shadow: 1px 1px 5px;
@@ -5,4 +15,5 @@
 
 .CommentsButtonContainer {
   margin-top: 1rem;
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
 }
