@@ -15,7 +15,7 @@ export default function CommentsButton({
   return isLoaded.buttonLoaded ? (
     <div className="CommentsButtonContainer">
       <Button
-        style={{ background: "#FFFFFF" }}
+        style={{ background: "#fff" }}
         variant="outlined"
         className="CommentsButton"
         onClick={handleOnClick}

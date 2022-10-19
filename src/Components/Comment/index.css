@@ -1,5 +1,6 @@
 .Comment {
-  background-color: #ffffff;
+  /* background-color: rgb(255, 214, 208); */
+  background-color: rgb(255, 242, 240);
   border: 1px solid rgba(0, 0, 0, 0.23);
   border-radius: 0.25rem;
   padding: 1rem;

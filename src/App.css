@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background: rgba(23, 156, 222, 1);
+  background: #fdcfc9;
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(23, 156, 222, 1) 50%
+    rgb(254, 181, 172, 1) 80%
   );
   min-height: 100vh;
   color: #333333;
