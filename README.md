@@ -16,3 +16,5 @@ I've added a few more to make application look a bit prettier:
 
 ## How to run it
 Since the project was initialized via create-react-app utility running the website is as easy as installing all dependencies and running `yarn run start` or `npm run start` in your terminal.
+
+#### [Link to website](https://squid-app-3ptjg.ondigitalocean.app/)
