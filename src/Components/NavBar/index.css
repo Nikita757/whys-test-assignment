@@ -1,0 +1,22 @@
+.NavBar {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.NavBarLogo {
+  margin-top: 1rem;
+}
+
+.NavBarNewPost {
+  transform: scale(0.85);
+}
+
+.NavBarBookmarks {
+  transform: scale(0.75);
+}
+
+.NavBarProfile {
+  transform: scale(0.85);
+}
