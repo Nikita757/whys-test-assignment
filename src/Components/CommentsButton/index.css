@@ -8,12 +8,18 @@
   }
 }
 
-.CommentsButton {
+.Button {
   width: 50%;
-  box-shadow: 1px 1px 5px;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.Button:hover {
+  transform: scale(1.005);
+  box-shadow: 4px 4px 0px 0px #d2d2f9;
 }
 
 .CommentsButtonContainer {
+  cursor: pointer;
   margin-top: 1rem;
   animation: myAnim 0.5s ease 0s 1 normal forwards;
 }

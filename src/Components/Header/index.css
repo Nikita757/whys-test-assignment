@@ -1,0 +1,37 @@
+.Header {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+  .Header {
+    display: none;
+  }
+}
+
+.HeaderNavBar {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.HeaderNavBarLogo {
+  margin-top: 1rem;
+}
+
+.HeaderNavBarNewPost {
+  transform: scale(0.85);
+}
+
+.HeaderNavBarBookmarks {
+  transform: scale(0.75);
+}
+
+.HeaderNavBarProfile {
+  transform: scale(0.85);
+}

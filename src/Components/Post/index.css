@@ -11,9 +11,9 @@
 .Article {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.43);
-  border-radius: 0.25rem;
+  border-radius: 0.8rem;
   padding: 1rem;
-  box-shadow: 1px 1px 8px;
+  box-shadow: 4px 4px 0px 0px #d2d2f9;
   animation: myAnim 0.5s ease 0s 1 normal forwards;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .Date {
-  text-align: end;
+  text-align: left;
   margin-top: 0.5rem;
 }
 

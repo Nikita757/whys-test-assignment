@@ -99,10 +99,19 @@ export default function PostPage() {
 
   return (
     <div className="PostPage">
+      <div className="PostPageHeader">
+        <img
+          className="PostPageHeaderBack"
+          src="https://img.icons8.com/ios-filled/50/000000/left.png"
+        />
+        <div className="PostPageTitleWrapper">
+          <span className="PostPageTitle">Post Title</span>
+        </div>
+      </div>
       <LoadingContext.Provider value={isLoaded}>
         <Post {...article!} />
         <CommentSection showMore={showMore} comments={comments} />
-        <CommentsButton handleOnClick={handleShowMore} />
+        <CommentsButton handleOnClick={handleShowMore} showMore={showMore} />
       </LoadingContext.Provider>
     </div>
   );

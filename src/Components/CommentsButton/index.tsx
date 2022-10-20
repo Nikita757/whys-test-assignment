@@ -7,20 +7,22 @@ import "./index.css";
 
 export default function CommentsButton({
   handleOnClick,
+  showMore,
 }: {
   handleOnClick: MouseEventHandler<HTMLButtonElement>;
+  showMore: boolean;
 }) {
   const isLoaded = useContext(LoadingContext);
 
   return isLoaded.buttonLoaded ? (
     <div className="CommentsButtonContainer">
       <Button
-        style={{ background: "#fff" }}
+        style={{ background: "#fff", borderRadius: "0.8rem", border: "none" }}
         variant="outlined"
-        className="CommentsButton"
+        className="Button"
         onClick={handleOnClick}
       >
-        Click
+        Show {showMore ? "Less" : "More"}
       </Button>
     </div>
   ) : (
