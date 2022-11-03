@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 
-import { LoadState } from "../util/types";
-export const LoadingContext = createContext<LoadState>({articleLoaded: false, commentsLoaded: false, buttonLoaded: false});
+import { LoadContext } from "../util/types";
+export const LoadingContext = createContext<LoadContext>({loadState: {articleLoaded: false, commentsLoaded: false, buttonLoaded: false}, setIsLoaded: () => {}});

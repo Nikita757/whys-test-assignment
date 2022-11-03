@@ -1,3 +1,8 @@
+export type LoadContext = {
+  loadState: LoadState;
+  setIsLoaded: Function;
+}
+
 export type LoadState = {
   articleLoaded: boolean;
   commentsLoaded: boolean;

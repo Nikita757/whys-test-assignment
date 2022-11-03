@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import { Skeleton } from "@mui/material";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { MouseEventHandler } from "react";
 import { LoadingContext } from "../../Context";
 import "./index.css";
@@ -14,7 +14,7 @@ export default function CommentsButton({
 }) {
   const isLoaded = useContext(LoadingContext);
 
-  return isLoaded.buttonLoaded ? (
+  return isLoaded.loadState.buttonLoaded ? (
     <div className="CommentsButtonContainer">
       <Button
         style={{ background: "#fff", borderRadius: "0.8rem", border: "none" }}
