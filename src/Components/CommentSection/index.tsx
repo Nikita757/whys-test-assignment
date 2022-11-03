@@ -15,7 +15,7 @@ export default function CommentSection() {
     async function fetchData() {
       const curDoc = document as DocWithVar;
 
-      await delay(1000);
+      await delay(1500);
 
       const commentsRaw = curDoc.__comments;
       const comments = commentsRaw.map((comment) => ({
@@ -40,7 +40,7 @@ export default function CommentSection() {
         };
       });
 
-      await delay(100);
+      await delay(300);
 
       setIsLoaded((newState: LoadState) => {
         return {
